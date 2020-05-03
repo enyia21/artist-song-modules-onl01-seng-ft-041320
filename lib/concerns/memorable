@@ -3,7 +3,7 @@ module Memorable
     module InstanceMethods
         def initialize
             #self.class.all allows us to call a class method(self.all) from an instance method(.initialize)
-            self.class.all << self 
+            self.class.all << self
         end
     end
 
